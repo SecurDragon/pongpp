@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\controllers">
+      <UniqueIdentifier>{c103310f-d875-410e-b39d-81c5362518b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects">
+      <UniqueIdentifier>{a9c7a591-5eec-4af4-9ad1-097ff3349651}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\graphics">
+      <UniqueIdentifier>{8decf4d0-be74-4dbf-a4e1-5288f04b6a37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{c5e4feb9-4d40-4f4e-8dc9-9294aac8f106}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects">
+      <UniqueIdentifier>{42f4856a-0215-4fc5-9032-1bee61f9a823}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\controllers">
+      <UniqueIdentifier>{0958f784-0fc6-4317-99ad-7fefeddd9b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\game">
+      <UniqueIdentifier>{58276b48-1220-4296-b3f3-5accef01ed44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{3ba4da8e-df6c-4779-b742-b451c0201f5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="controllers\Controller.hpp">
+      <Filter>Header Files\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\GameObject.hpp">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Rectangle.hpp">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Vec2f.hpp">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Renderer.hpp">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\Ball.hpp">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="objects\Paddle.hpp">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="controllers\AIController.hpp">
+      <Filter>Header Files\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="controllers\PlayerController.hpp">
+      <Filter>Header Files\controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\Screen.hpp">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="graphics\ScreenFactory.hpp">
+      <Filter>Header Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Game.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\Level.hpp">
+      <Filter>Header Files\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="graphics\Rectangle.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Renderer.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\GameObject.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\Ball.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="objects\Paddle.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="controllers\AIController.cpp">
+      <Filter>Source Files\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="controllers\PlayerController.cpp">
+      <Filter>Source Files\controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\Screen.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="graphics\ScreenFactory.cpp">
+      <Filter>Source Files\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Level.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game\Game.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
